@@ -1,0 +1,15 @@
+---
+cloudkitchens:
+  inputfolders:
+    - "/Users/raghavsundaravaradan/Projects/Development/cloudkitchens/input"
+  order:
+    preparation:
+      min: 2000  # In milliseconds
+      max: 6000  # In milliseconds
+    processdelay: 2000  # Delay in milliseconds between successive order processing
+    nthreads: 2 # Number of thread the processes orders
+  shelf:
+    hotShelfSize: 10
+    coldShelfSize: 10
+    frozenShelfSize: 10
+    overflowShelfSize: 15
